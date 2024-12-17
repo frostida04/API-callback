@@ -1,0 +1,32 @@
+{
+  "name": "scinet-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scinet API",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC"
+}
